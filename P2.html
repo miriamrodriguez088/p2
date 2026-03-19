@@ -1,0 +1,179 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tech Summit 2025</title>
+</head>
+<body>
+	<header>
+		<h1>Tech Summit 2025</h1>
+		<nav>
+			<a href="#info">Informacion</a>
+			<a href="#agenda">Agenda</a>
+			<a href="#registro">Inscripcion</a>
+		</nav>
+	</header>
+
+<main>
+	<section id="info">
+		<h2>El evento del año</h2>
+		<p>Descubre las ultimas tendencias en IA y Desarrollo Web.</p>
+		<img src="https://placehold.co/600x200" alt="Banner del evento"> <hr>
+	</section>
+	</main>
+
+<footer>
+	<p> 2025 Tech Summit Corp.</p>
+</footer>
+<h3>Video Teaser</h3>
+<iframe 
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    title="Video del evento"
+    style="border:0"
+    allowfullscreen>
+</iframe>
+<h3>Datos clave</h3>
+<dl>
+	<dt>Ubicación</dt>
+	<dd>Palacio de congreso, Madrid.</dd>
+
+	<dt>Fecha </dt>
+</dl>
+<section id="agenda">
+	<h2>Agenda del Día</h2>
+	<table border="1" width="100%">
+		<thead>
+			<tr>
+				<th> Hora</th> 
+				<th>Charla</th>
+				<th>Sala</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>09:00</td>
+				<td>Keynote de Apertura</td>
+				<td>Auditorio A</td>
+			</tr>
+			<tr>
+				<td>11:00</td>
+				<td>Inteligencia Artificial</td>
+				<td>Sala Beta</td>
+
+			</tr>
+		</tbody>
+	</table>
+</section>
+<tr> 
+	<td>14:00</td>
+	<td colspan="2" align="center"> PAUSA PARA COMIDA (buffet libre)</td>
+</tr>
+<h3>Preguntas frecuentes (FAQ)</h3>
+<details>
+	<summary>¿El evento es gratuito?</summary>
+	<p>No, pero tenemos beca de estudiantes.</p>
+</details>
+
+<details> 
+<summary>¿Hay código de vestimenta?</summary>
+<p>Ven como quieras, somos programadores!</p>
+</details>
+<figure>
+	<blockquote>
+		<figcaption> Miriam Rodríguez, Desarrolladora Full Stack</figcaption>
+	</blockquote>
+</figure>
+<hr>
+<section id="registro">
+	<h2>Inscríbete ahora!</h2>
+	<form action="#" method="post"> 
+</section>
+<fieldset>
+	<legend>Datos personales</legend>
+</fieldset>
+<label for="nombre">Nombre Completo:</label>
+<input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+<br> </br>
+<label for="email">Email corporativo:</label>
+<input type="email" id="email" name="email" required>
+<br> </br>
+<label for="móvil">Móvil (9 Dígitos):</label>
+<input type="tel" id="movil" name="movil" pattern="[0-9]{9}" title="Debe contener 9 números">
+<br></br>
+<fieldset> 
+<legend>Preferencias del Evento</legend>
+<label for="taller">Elige un taller:</label>
+<select id="taller" name="taller">
+<option value=""disable selected>--Selecciona una opción --</option>
+<option value="html">HTML Avanzado</option>
+<option value="css">CSS Grid </option>
+<option value="js">JavaScript Moderno</option>
+</select>
+<br></br>
+
+<p>Nivel de experiencia:</p>
+<input type="radio" id="jr" name="nivel" value="junior">
+<label for="jr">Junior</label>
+
+<input type="radio" id="mid" name="nivel" checked>
+<label for="mid">Mid-level </label>
+
+<input type="radio" id="sr" name="nivel" value="senior">
+<label for="sr">Senior</label>
+<br></br>
+
+<p>Restricciones alimentarias:</p>
+<input type="checkbox" id="vegan" name="vegano">
+<label for="vegan">Vegano </label>
+
+<input type="checkbox" id="gluten" name="dieta" value="gluten">
+<label for="gluten">Sin Gluten </label>
+<br></br>
+
+<label for="llegada">Fecha de llegada:</label>
+<input type="date" id="llegada" name="llegada" min="2025-10-14" max="2025-10-15">
+</fieldset>
+<fieldset>
+	<legend>Personaliza tu badge</legend>
+
+<label for="color">Color favorito:</label>
+<input type="color" id="color" name="color_badge" value="#ff0000">
+<br> </br>
+<label for="felicidad">Nivel de entusiasmo (1-10):</label>
+<input type="range" id="felicidad" name="entusiasmo" min="1" max="10">
+</fieldset>
+
+<p>
+	<label for="pais">Pais de origen:</label>
+<input list="paises" id="pais" name="pais">
+
+<datalist id="paises">
+	<option value="España"> 
+	<option value="México">	
+	<option value="Argentina">
+    <option value="Colombia">
+</datalist>
+</p>
+<p>
+	<label for="comentarios"> Comentarios extra:</label><br>
+	<textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe aquí..."></textarea>
+</p>
+
+<button type="submit">¡Inscribirme!</button>
+<button type="reset">Borrar todo</button>
+</form>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>
